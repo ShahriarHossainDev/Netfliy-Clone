@@ -20,6 +20,8 @@
 		FAAE6DE729A3E0D3009381E3 /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAE6DE629A3E0D3009381E3 /* HeroHeaderUIView.swift */; };
 		FAAE6DE929A3F0A4009381E3 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAE6DE829A3F0A4009381E3 /* APICaller.swift */; };
 		FAAE6DEB29A3F534009381E3 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAE6DEA29A3F534009381E3 /* Movie.swift */; };
+		FAAE6DED29A3FB1C009381E3 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAE6DEC29A3FB1C009381E3 /* Extensions.swift */; };
+		FAAE6DEF29A3FCFF009381E3 /* Tv.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAE6DEE29A3FCFF009381E3 /* Tv.swift */; };
 		FAF6143429A3611F001038AA /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF6143329A3611F001038AA /* CollectionViewTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +41,8 @@
 		FAAE6DE629A3E0D3009381E3 /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
 		FAAE6DE829A3F0A4009381E3 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 		FAAE6DEA29A3F534009381E3 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		FAAE6DEC29A3FB1C009381E3 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		FAAE6DEE29A3FCFF009381E3 /* Tv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tv.swift; sourceTree = "<group>"; };
 		FAF6143329A3611F001038AA /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -120,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				FAAE6DEA29A3F534009381E3 /* Movie.swift */,
+				FAAE6DEE29A3FCFF009381E3 /* Tv.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -127,6 +132,7 @@
 		FAF6143129A360B7001038AA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				FAAE6DEC29A3FB1C009381E3 /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -217,9 +223,11 @@
 				FAAE6DE729A3E0D3009381E3 /* HeroHeaderUIView.swift in Sources */,
 				FA32F53B29A275A000640566 /* AppDelegate.swift in Sources */,
 				FA32F55829A27AC200640566 /* DownloadViewController.swift in Sources */,
+				FAAE6DED29A3FB1C009381E3 /* Extensions.swift in Sources */,
 				FA32F53D29A275A000640566 /* SceneDelegate.swift in Sources */,
 				FA32F55429A27A7A00640566 /* UpcomingViewController.swift in Sources */,
 				FAAE6DEB29A3F534009381E3 /* Movie.swift in Sources */,
+				FAAE6DEF29A3FCFF009381E3 /* Tv.swift in Sources */,
 				FA32F55229A27A4600640566 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
