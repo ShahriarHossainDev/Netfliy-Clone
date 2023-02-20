@@ -42,6 +42,8 @@ class CollectionViewTableViewCell: UITableViewCell {
     
 }
 
+// MARK: - Extension CollectionViewTableViewCell
+
 extension CollectionViewTableViewCell: UICollectionViewDelegate, UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath)
