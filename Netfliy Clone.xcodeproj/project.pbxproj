@@ -18,6 +18,8 @@
 		FA32F55629A27A9C00640566 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA32F55529A27A9C00640566 /* SearchViewController.swift */; };
 		FA32F55829A27AC200640566 /* DownloadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA32F55729A27AC200640566 /* DownloadViewController.swift */; };
 		FAAE6DE729A3E0D3009381E3 /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAE6DE629A3E0D3009381E3 /* HeroHeaderUIView.swift */; };
+		FAAE6DE929A3F0A4009381E3 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAE6DE829A3F0A4009381E3 /* APICaller.swift */; };
+		FAAE6DEB29A3F534009381E3 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAE6DEA29A3F534009381E3 /* Movie.swift */; };
 		FAF6143429A3611F001038AA /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF6143329A3611F001038AA /* CollectionViewTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +37,8 @@
 		FA32F55529A27A9C00640566 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		FA32F55729A27AC200640566 /* DownloadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadViewController.swift; sourceTree = "<group>"; };
 		FAAE6DE629A3E0D3009381E3 /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
+		FAAE6DE829A3F0A4009381E3 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		FAAE6DEA29A3F534009381E3 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		FAF6143329A3611F001038AA /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -115,6 +119,7 @@
 		FAF6143029A36099001038AA /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				FAAE6DEA29A3F534009381E3 /* Movie.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -129,6 +134,7 @@
 		FAF6143229A360C8001038AA /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				FAAE6DE829A3F0A4009381E3 /* APICaller.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -207,11 +213,13 @@
 				FA32F55629A27A9C00640566 /* SearchViewController.swift in Sources */,
 				FA32F53F29A275A000640566 /* MainTabBarViewController.swift in Sources */,
 				FAF6143429A3611F001038AA /* CollectionViewTableViewCell.swift in Sources */,
+				FAAE6DE929A3F0A4009381E3 /* APICaller.swift in Sources */,
 				FAAE6DE729A3E0D3009381E3 /* HeroHeaderUIView.swift in Sources */,
 				FA32F53B29A275A000640566 /* AppDelegate.swift in Sources */,
 				FA32F55829A27AC200640566 /* DownloadViewController.swift in Sources */,
 				FA32F53D29A275A000640566 /* SceneDelegate.swift in Sources */,
 				FA32F55429A27A7A00640566 /* UpcomingViewController.swift in Sources */,
+				FAAE6DEB29A3F534009381E3 /* Movie.swift in Sources */,
 				FA32F55229A27A4600640566 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,6 +364,7 @@
 				DEVELOPMENT_TEAM = K6BJ9JXQPF;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Netfliy Clone/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Netfliy;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -384,6 +393,7 @@
 				DEVELOPMENT_TEAM = K6BJ9JXQPF;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Netfliy Clone/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Netfliy;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
