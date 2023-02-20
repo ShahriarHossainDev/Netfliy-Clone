@@ -17,6 +17,7 @@
 		FA32F55429A27A7A00640566 /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA32F55329A27A7A00640566 /* UpcomingViewController.swift */; };
 		FA32F55629A27A9C00640566 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA32F55529A27A9C00640566 /* SearchViewController.swift */; };
 		FA32F55829A27AC200640566 /* DownloadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA32F55729A27AC200640566 /* DownloadViewController.swift */; };
+		FAF6143429A3611F001038AA /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF6143329A3611F001038AA /* CollectionViewTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		FA32F55329A27A7A00640566 /* UpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
 		FA32F55529A27A9C00640566 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		FA32F55729A27AC200640566 /* DownloadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadViewController.swift; sourceTree = "<group>"; };
+		FAF6143329A3611F001038AA /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,11 @@
 		FA32F53929A275A000640566 /* Netfliy Clone */ = {
 			isa = PBXGroup;
 			children = (
+				FAF6143229A360C8001038AA /* Managers */,
+				FAF6143129A360B7001038AA /* Resources */,
+				FAF6143029A36099001038AA /* Models */,
+				FAF6142E29A36075001038AA /* Views */,
+				FAF6142F29A36080001038AA /* ViewModels */,
 				FA32F55029A27A2000640566 /* Controllers */,
 				FA32F53A29A275A000640566 /* AppDelegate.swift */,
 				FA32F53C29A275A000640566 /* SceneDelegate.swift */,
@@ -85,6 +92,42 @@
 				FA32F55729A27AC200640566 /* DownloadViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FAF6142E29A36075001038AA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FAF6143329A3611F001038AA /* CollectionViewTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FAF6142F29A36080001038AA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FAF6143029A36099001038AA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FAF6143129A360B7001038AA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FAF6143229A360C8001038AA /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +203,7 @@
 			files = (
 				FA32F55629A27A9C00640566 /* SearchViewController.swift in Sources */,
 				FA32F53F29A275A000640566 /* MainTabBarViewController.swift in Sources */,
+				FAF6143429A3611F001038AA /* CollectionViewTableViewCell.swift in Sources */,
 				FA32F53B29A275A000640566 /* AppDelegate.swift in Sources */,
 				FA32F55829A27AC200640566 /* DownloadViewController.swift in Sources */,
 				FA32F53D29A275A000640566 /* SceneDelegate.swift in Sources */,
