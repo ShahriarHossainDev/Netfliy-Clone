@@ -1,16 +1,17 @@
 //
-//  Tv.swift
+//  Movie.swift
 //  Netfliy Clone
 //
 //  Created by Shishir_Mac on 21/2/23.
 //
 
 import Foundation
-struct TrendingTvsResponse: Codable {
-    let results: [Tv]
+
+struct TrendingTitleResponse: Codable {
+    let results: [Title]
 }
 
-struct Tv: Codable {
+struct Title: Codable {
     let id: Int
     let media_type: String?
     let original_name: String?
