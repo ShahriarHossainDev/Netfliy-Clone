@@ -16,10 +16,10 @@ class UpcomingViewController: UIViewController {
         table.register(TitleTableViewCell.self, forCellReuseIdentifier: TitleTableViewCell.identifier)
         return table
     }()
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         view.backgroundColor = .systemBackground
         title = "Upcoming"
         navigationController?.navigationBar.prefersLargeTitles = true
@@ -50,7 +50,7 @@ class UpcomingViewController: UIViewController {
                     self?.upcomingTable.reloadData()
                 }
                 
-
+                
             case .failure(let error):
                 print(error.localizedDescription)
             }
