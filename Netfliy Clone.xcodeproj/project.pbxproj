@@ -27,6 +27,7 @@
 		FAAE6DEB29A3F534009381E3 /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAE6DEA29A3F534009381E3 /* Title.swift */; };
 		FAAE6DED29A3FB1C009381E3 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAE6DEC29A3FB1C009381E3 /* Extensions.swift */; };
 		FAD1D73729A65C2B00ADE29B /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD1D73629A65C2B00ADE29B /* SearchResultsViewController.swift */; };
+		FAD1D73B29A66A2100ADE29B /* YouTubeSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD1D73A29A66A2100ADE29B /* YouTubeSearchResponse.swift */; };
 		FAF6143429A3611F001038AA /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF6143329A3611F001038AA /* CollectionViewTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +52,7 @@
 		FAAE6DEA29A3F534009381E3 /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
 		FAAE6DEC29A3FB1C009381E3 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		FAD1D73629A65C2B00ADE29B /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
+		FAD1D73A29A66A2100ADE29B /* YouTubeSearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeSearchResponse.swift; sourceTree = "<group>"; };
 		FAF6143329A3611F001038AA /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -154,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				FAAE6DEA29A3F534009381E3 /* Title.swift */,
+				FAD1D73A29A66A2100ADE29B /* YouTubeSearchResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 				FA32F55829A27AC200640566 /* DownloadViewController.swift in Sources */,
 				FAD1D73729A65C2B00ADE29B /* SearchResultsViewController.swift in Sources */,
 				FAAE6DED29A3FB1C009381E3 /* Extensions.swift in Sources */,
+				FAD1D73B29A66A2100ADE29B /* YouTubeSearchResponse.swift in Sources */,
 				FA32F53D29A275A000640566 /* SceneDelegate.swift in Sources */,
 				FA32F55429A27A7A00640566 /* UpcomingViewController.swift in Sources */,
 				FAAE6DEB29A3F534009381E3 /* Title.swift in Sources */,
