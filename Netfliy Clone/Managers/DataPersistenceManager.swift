@@ -21,12 +21,12 @@ class DataPersistenceManager {
     static let shared = DataPersistenceManager()
     
     
+    // download Title With link
     func downloadTitleWith(model: Title, completion: @escaping (Result<Void, Error>) -> Void) {
         
         guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else {
             return
         }
-        
         
         let context = appDelegate.persistentContainer.viewContext
         
@@ -52,6 +52,7 @@ class DataPersistenceManager {
     }
     
     
+    // fetching Titles From DataBase
     func fetchingTitlesFromDataBase(completion: @escaping (Result<[TitleItem], Error>) -> Void) {
         
         guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else {
@@ -74,6 +75,7 @@ class DataPersistenceManager {
         }
     }
     
+    // delete Title With link
     func deleteTitleWith(model: TitleItem, completion: @escaping (Result<Void, Error>)-> Void) {
         
         guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else {
