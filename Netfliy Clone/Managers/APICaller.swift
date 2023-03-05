@@ -14,7 +14,6 @@ struct Constants {
     static let YoutubeAPI_KEY = "AIzaSyDAvyJldXM_iJ0Ios-oTnG1UzVFUGmeQDQ"
     static let youTubeURL = "https://youtube.googleapis.com/youtube/v3/search?"
     
-    //https://youtube.googleapis.com/youtube/v3/search?q=Harry&key=[YOUR_API_KEY]
 }
 
 enum APIError: Error {
@@ -152,16 +151,17 @@ class APICaller {
         guard let query = query.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed) else { return }
         guard let url = URL(string: "\(Constants.youTubeURL)q=\(query)&key=\(Constants.YoutubeAPI_KEY)") else { return }
         
+        print(url)
         let task = URLSession.shared.dataTask(with: URLRequest(url: url)) { data, _, error in
             guard let data = data, error == nil else {
                 return
             }
+            
             do {
                 let results = try JSONDecoder().decode(YouTubeSearchResponse.self, from: data)
                 completion(.success(results.items[0]))
             } catch {
                 completion(.failure(error))
-                print(error.localizedDescription)
             }
         }
         task.resume()
